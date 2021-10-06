@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- for header -->
+    <div class="header">
+        <div class="header_left">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+          alt="facebook_logo"
+        />
+        <div class="header_input">
+            <span class="material-icons"> search </span>
+            <input type="text" placeholder="Search Facebook" />
+        </div>
+        </div>
+    <div class="header__middle">
+            <div class="header_option active">
+              <span class="material-icons"> home </span>
+            </div>
+            <div class="header_option">
+              <span class="material-icons"> subscriptions </span>
+            </div>
+            <div class="header_option">
+                <span class="material-icons">extension</span>
+            </div>
+            <div class="header_option">
+              <span class="material-icons"> supervised_user_circle </span>
+            </div>
+          </div>
+        <div class="header_right">
+            <div class="header_info">
+                 <img class="user_avatar" src="images/profile.png" alt="profile">
+                 <h4>Haru Haru</h4>
+            </div>
+            <div class="navbar_right_links">
+                <i class="fas fa-plus"></i>
+                <i class="fab fa-facebook-messenger"></i>
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </div>
+    </div><!-- end header -->
+
+    <!-- main body start -->
+    <div class="main_body">
+        <!-- first side bar start -->
+        <div class="sidebar">
+            <div class="sidebarRow">
+                <img class="user_avatar" src="images/profile.png" alt="profile">
+                <h4>Haru Haru</h4> 
+            </div>
+            <div class="sidebarRow">
+                <span class="material-icons"> local_hospital </span>
+                <h4>Covid - 19 Information Center</h4>
+              </div>
+      
+              <div class="sidebarRow">
+                <span class="material-icons"> emoji_flags </span>
+                <h4>Pages</h4>
+              </div>
+      
+              <div class="sidebarRow">
+                <span class="material-icons"> people </span>
+                <h4>Group</h4>
+              </div>
+      
+              <div class="sidebarRow">
+                <span class="material-icons"> chat </span>
+                <h4>People</h4>
+              </div>
+      
+              <div class="sidebarRow">
+                <span class="material-icons">history</span>
+                <h4>Memories</h4>
+              </div>
+      
+              <div class="sidebarRow">
+                <span class="material-icons"> video_library </span>
+                <h4>Videos</h4>
+              </div>
+      
+              <div class="sidebarRow">
+                <span class="material-icons"> expand_more </span>
+                <h4>More</h4>
+              </div>
+        </div>
+        <!-- first side bar end! -->
+        <!-- Newfeed star -->
+        <div class="feed">
+            <div class="storyReel">
+                <!-- story start -->
+                <div style="background-image: url('https://i.pinimg.com/236x/95/26/60/952660de49166d3b8904181978d3bcd0.jpg');" class="story">
+                    <img class="user_avatar story_avatar" src="images/profile.png" alt="profile">
+                    <h4>Haru Haru</h4>
+                </div>
+                <!-- story end -->
+                <!-- story start -->
+                <div style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdg0aWs9fEOdhWiU9HDlIMuQRv16Mc4vNP7g&usqp=CAU');" class="story">
+                    <img class="user_avatar story_avatar " src="images/profile.png" alt="profile">
+                    <h4>Hirojimaru</h4>
+                </div>
+                <!-- story end -->
+                <!-- story start -->
+                <div style="background-image: url('https://i.pinimg.com/originals/97/d9/20/97d920f08254ad52f70be40f26e7adaa.png');" class="story">
+                    <img class="user_avatar story_avatar " src="images/profile.png" alt="profile">
+                    <h4>Haruto</h4>
+                </div>
+                <!-- story end -->
+                <!-- story start -->
+                <div style="background-image: url('https://geekoutsw.files.wordpress.com/2019/01/xerneas.png?w=1200');" class="story">
+                    <img class="user_avatar story_avatar " src="images/profile.png" alt="profile">
+                    <h4>Tay Tawan</h4>
+                </div>
+                <!-- story end -->
+                <!-- story start -->
+                <div style="background-image: url('https://i.pinimg.com/736x/46/b7/e7/46b7e76417ea6de2f2a8e17a872a3c95.jpg');" class="story">
+                    <img class="user_avatar story_avatar " src="images/profile.png" alt="profile">
+                    <h4>Haru Haru</h4>
+                </div>
+                <!-- story end -->
+                <!-- story start -->
+                <div style="background-image: url('https://64.media.tumblr.com/1b19c7483cb5af86f71dbb63678d5b99/96f3b0b5776679ad-64/s1280x1920/9068454b38f5a48d1c2b6823013963e638655ad9.jpg');" class="story">
+                    <img class="user_avatar story_avatar " src="images/profile.png" alt="profile">
+                    <h4>Khun Jin</h4>
+                </div>
+                <!-- story end -->
+            </div>
+            <!-- create post start -->
+            <div class="messageSender">
+                <div class="messageSender_top">
+                    <img class="user_avatar" src="images/profile.png" alt="profile">
+                    <form>
+                        <input class="messageSender__input" placeholder="What's on your mind?" type="text" />
+                      </form>
+                </div>
+                <div class="messageSender__bottom">
+                    <div class="messageSender__option">
+                      <span style="color: red" class="material-icons"> videocam </span>
+                      <h3>Live</h3>
+                    </div>
+        
+                    <div class="messageSender__option">
+                      <span style="color: green" class="material-icons"> photo_library </span>
+                      <h3>Photo</h3>
+                    </div>
+        
+                    <div class="messageSender__option">
+                      <span style="color: orange" class="material-icons"> insert_emoticon </span>
+                      <h3>Feeling</h3>
+                    </div>
+                  </div>
+            </div>
+            <!-- message post end -->
+            <!-- post starts -->
+        <div class="post">
+            <div class="post__top">
+              <img
+                class="user__avatar post__avatar"
+                src="images/profile.png"
+                alt=""
+              />
+              <div class="post__topInfo">
+                <h3>Haru Haru</h3>
+                <p>25 April at 20:30</p>
+              </div>
+            </div>
+  
+            <div class="post__bottom">
+              <p>Message</p>
+            </div>
+  
+            <div class="post__image">
+              <img
+                src="https://static01.nyt.com/images/2017/04/07/arts/07yourname1/07yourname1-jumbo.jpg"
+                alt=""
+              />
+            </div>
+  
+            <div class="post__options">
+              <div class="post__option">
+                <span class="material-icons"> thumb_up </span>
+                <p>Like</p>
+              </div>
+  
+              <div class="post__option">
+                <span class="material-icons"> chat_bubble_outline </span>
+                <p>Comment</p>
+              </div>
+  
+              <div class="post__option">
+                <span class="material-icons"> near_me </span>
+                <p>Share</p>
+              </div>
+            </div>
+          </div>
+          <!-- post ends -->
+  
+          <!-- post starts -->
+          <div class="post">
+            <div class="post__top">
+              <img
+                class="user__avatar post__avatar"
+                src="images/profile.png"
+                alt=""
+              />
+              <div class="post__topInfo">
+                <h3>Hirojimaru</h3>
+                <p>25 April at 20:30</p>
+              </div>
+            </div>
+  
+            <div class="post__bottom">
+              <p>Post Without Image</p>
+            </div>
+  
+            <div class="post__options">
+              <div class="post__option">
+                <span class="material-icons"> thumb_up </span>
+                <p>Like</p>
+              </div>
+  
+              <div class="post__option">
+                <span class="material-icons"> chat_bubble_outline </span>
+                <p>Comment</p>
+              </div>
+  
+              <div class="post__option">
+                <span class="material-icons"> near_me </span>
+                <p>Share</p>
+              </div>
+            </div>
+          </div>
+          <!-- post ends -->
+  
+          <!-- post starts -->
+          <div class="post">
+            <div class="post__top">
+              <img
+                class="user__avatar post__avatar"
+                src="images/profile.png"
+                alt=""
+              />
+              <div class="post__topInfo">
+                <h3>Green</h3>
+                <p>25 April at 20:30</p>
+              </div>
+            </div>
+  
+            <div class="post__bottom">
+              <p>Message</p>
+            </div>
+  
+            <div class="post__image">
+              <img src="https://wallpapercave.com/wp/wp7357832.jpg" alt="" />
+            </div>
+  
+            <div class="post__options">
+              <div class="post__option">
+                <span class="material-icons"> thumb_up </span>
+                <p>Like</p>
+              </div>
+  
+              <div class="post__option">
+                <span class="material-icons"> chat_bubble_outline </span>
+                <p>Comment</p>
+              </div>
+  
+              <div class="post__option">
+                <span class="material-icons"> near_me </span>
+                <p>Share</p>
+              </div>
+            </div>
+          </div>
+          <!-- post ends -->
+        </div>
+        <!-- Newfeed end! -->
+        <div style="flex: 0.33" class="widgets">
+              <div class="content_right_inner">
+          <div class="your_pages">
+            <h3>Your Pages</h3>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <img
+                  class="your_page_logo"
+                  src="images/codersbite.png"
+                  alt="codersbite"
+                />
+                <span>Codersbite</span>
+              </a>
+            </li>
+            <li class="content_right_small_text">
+              <a href="#">
+                <i class="fas fa-bell"></i>
+                <span>5 Notifications</span>
+              </a>
+            </li>
+            <li class="content_right_small_text">
+              <a href="#">
+                <i class="fas fa-bullhorn"></i>
+                <span>Create Promotion</span>
+              </a>
+            </li>
+          </ul>
+          <div class="content_right_divider"></div>
+          <div class="birthdays">
+            <h3>Birthdays</h3>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="images/gift-box.png" alt="gift-box" />
+                <span>Jary Garson's birthday is today</span>
+              </a>
+            </li>
+          </ul>
+          <div class="content_right_divider"></div>
+          <div class="contacts">
+            <h3>Contacts</h3>
+            <div class="contact_icons">
+              <i class="fas fa-search"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="images/avatar1.png" alt="user" />
+                <span>John Doe</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/avatar2.png" alt="user" />
+                <span>Zorah Makey</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/avatar5.png" alt="user" />
+                <span>Kero Janre</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/avatar3.png" alt="user" />
+                <span>Ube Yuri</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/avatar4.png" alt="user" />
+                <span>Hosaa Mora</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+    </div>
+    <!-- main body end! -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=1936306576503546&autoLogAppEvents=1" nonce="OL0oXLbt"></script>
+</body>
+</html>
