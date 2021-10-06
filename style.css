@@ -44,7 +44,7 @@
     color: gray;
 }
 .header_option:hover .material-icons {
-    color: #2e81f4;
+    color: #2e81f48a;
 }
 .header_option {
     display: flex;
